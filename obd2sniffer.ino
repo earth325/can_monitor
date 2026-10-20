@@ -18,7 +18,7 @@ static constexpr uint32_t OBD_RESPONSE_ID = 0x7E8;
 static constexpr uint32_t HYBRID_RESPONSE_ID = 0x7EA;
 
 const char *AP_SSID = "Prius-OBD-Dashboard";
-const char *AP_PASSWORD = "PriusDash2013"; // 8+ characters; change if desired
+const char *AP_PASSWORD = "PriusDash2015"; // 8+ characters; change if desired
 
 AsyncWebServer server(80);
 AsyncEventSource events("/events");
